@@ -139,25 +139,19 @@ export function Home() {
               <InputMask
                 component={Input}
                 mask="dd/mm/aaaa"
-                replacement={{ d: /∖d/, m: /∖d/, a: /∖d/ }}
+                replacement={{ d: /\d/, m: /\d/, a: /\d/ }}
                 variant="dark"
                 label="Inicio"
                 placeholder="dd/mm/aaaa"
-                onError={
-                  transactionsFilterForm.formState.errors.beginDate?.message
-                }
                 {...transactionsFilterForm.register('beginDate')}
               />
               <InputMask
                 component={Input}
                 mask="dd/mm/aaaa"
-                replacement={{ d: /∖d/, m: /∖d/, a: /∖d/ }}
+                replacement={{ d: /\d/, m: /\d/, a: /\d/ }}
                 variant="dark"
                 label="Fim"
                 placeholder="dd/mm/aaaa"
-                error={
-                  transactionsFilterForm.formState.errors.beginDate?.message
-                }
                 {...transactionsFilterForm.register('endDate')}
               />
               <ButtonIcon
@@ -211,7 +205,7 @@ export function Home() {
                 <InputMask
                   component={Input}
                   mask="aaaa"
-                  replacement={{ a: /∖d/ }}
+                  replacement={{ a: /\d/ }}
                   variant="black"
                   label="Ano"
                   placeholder="aaaa"

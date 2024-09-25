@@ -90,7 +90,6 @@ export function CreateTransactionDialog() {
               label="Nome"
               placeholder="Nome da transação"
               {...register('title')}
-              error={errors.title?.message}
             />
             <InputGroup>
               <label>Valor</label>
@@ -107,11 +106,10 @@ export function CreateTransactionDialog() {
             <InputMask
               component={Input}
               mask="dd/mm/aaaa"
-              replacement={{ d: /∖d/, m: /∖d/, a: /∖d/ }}
+              replacement={{ d: /\d/, m: /\d/, a: /\d/ }}
               label="Data"
               variant="black"
               placeholder="dd/mm/aaaa"
-              error={errors.title?.message}
               {...register('date')}
             />
             <RadioForm>
