@@ -1,30 +1,44 @@
-# React + TypeScript + Vite
+# 💰 DevBills — Sistema de Controle Financeiro
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Projeto DevBills](./images/devbills.png)
 
-Currently, two official plugins are available:
+O **DevBills** é um projeto de controle financeiro desenvolvido para facilitar a organização de gastos e receitas.  
+Com ele, você consegue registrar entradas e saídas, visualizar seu saldo e acompanhar sua vida financeira de forma clara e objetiva.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este projeto foi construído seguindo as aulas de **TypeScript**, permitindo o aprendizado prático da linguagem e também o aprofundamento em conceitos importantes de programação, arquitetura e boas práticas.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🚀 Funcionalidades
+- Cadastro de receitas  
+- Cadastro de despesas  
+- Listagem das transações  
+- Cálculo automático de totais  
+- Interface intuitiva  
+- Visualização gráfica dos dados  
+- Controle completo da sua vida financeira  
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## 🧰 Tecnologias Utilizadas
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### 🔧 **Back-end**
+- **Express**  
+- **Docker**  
+- **MongoDB**  
+- **Zod** (validação)  
+- **Aggregation Framework (MongoDB)**  
+
+### 🎨 **Front-end**
+- **Vite**  
+- **Styled-Components**  
+- **Pie Chart**  
+- **Bar Chart**  
+
+---
+
+## 📦 Instalação
+
+### Clonar o repositório
+```bash
+https://github.com/lukas050490/devbills-front.git
