@@ -1,6 +1,6 @@
 # 💰 DevBills — Sistema de Controle Financeiro
 
-![Projeto DevBills](./images/devbills.png)
+![Projeto DevBills](https://github.com/lukas050490/devbills-front/blob/main/public/devbills-readme.png?raw=true)
 
 O **DevBills** é um projeto de controle financeiro desenvolvido para facilitar a organização de gastos e receitas.  
 Com ele, você consegue registrar entradas e saídas, visualizar seu saldo e acompanhar sua vida financeira de forma clara e objetiva.
