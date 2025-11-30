@@ -41,4 +41,4 @@ Este projeto foi construído seguindo as aulas de **TypeScript**, permitindo o a
 
 ### Clonar o repositório
 ```bash
-git clone https://github.com/seuusuario/devbills.git
+https://github.com/lukas050490/devbills-front.git
